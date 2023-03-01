@@ -39,6 +39,7 @@ yarn typeorm migration:run
 
 # executar o projeto
 yarn dev
+
 ```
 # Autor
 
