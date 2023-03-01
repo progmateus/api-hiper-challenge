@@ -19,7 +19,7 @@ yarn typeorm migration:run
 
 ```
 
-## Se o Docker houver problemas com o Docker execute da seguinte forma
+## Se houver problemas com o Docker execute da seguinte forma
 
 ```bash
 # clonar repositório
@@ -39,7 +39,7 @@ yarn typeorm migration:run
 
 # executar o projeto
 yarn dev
-
+```
 # Autor
 
 Mateus Lopes
