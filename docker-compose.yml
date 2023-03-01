@@ -1,9 +1,9 @@
 version: "3.7"
 services:
 
-  database:
+  hipersend_database:
     image: postgres
-    container_name: database
+    container_name: hipersend_database
     restart: always
     ports:
       - 5432:5432
@@ -22,9 +22,9 @@ services:
     volumes:
       - .:/usr/app
     links:
-      - database
+      - hipersend_database
     depends_on:
-      - database
+      - hipersend_database
 
 volumes:
   pgdata:
